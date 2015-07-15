@@ -13,15 +13,17 @@ Shimgen is a tool that makes batch redirection not suck so much by generating sh
 * Uses the icon of the target if the target exists on creation
 * Works better than symlinks. Symlinks on Windows fall down at file dependencies. So if your file depends on other files and DLLs, all of those need to also be linked. 
 
-## Args
+## Shim Arguments
 
- * shimgen-help - shows this help menu and exits without running the target
- * shimgen-log - logging is shown on command line
- * shimgen-waitforexit - explicitly tell the shim to wait for target to exit - useful when something is calling a gui and wanting to block - command line programs explicitly have waitforexit already set.
- * shimgen-exit - explicitly tell the shim to exit immediately.
- * shimgen-gui - explicitly behave as if the target is a GUI application. This is helpful in situations where the package did not have a proper .gui file.
- * shimgen-usetargetworkingdirectory - set the working directory to the target path. Useful when programs need to be running from where they are located (usually indicates programs that have issues being run globally).
- * shimgen-noop - Do not actually call the target. Useful to see what would happen if you ran the command.
+You pass these arguments to an executable that is a shim (e.g. executables in the bin directory of your choco install):
+
+ * `--shimgen-help` - shows this help menu and exits without running the target
+ * `--shimgen-log` - logging is shown on command line
+ * `--shimgen-waitforexit` - explicitly tell the shim to wait for target to exit - useful when something is calling a gui and wanting to block - command line programs explicitly have waitforexit already set.
+ * `--shimgen-exit` - explicitly tell the shim to exit immediately.
+ * `--shimgen-gui` - explicitly behave as if the target is a GUI application. This is helpful in situations where the package did not have a proper .gui file.
+ * `--shimgen-usetargetworkingdirectory` - set the working directory to the target path. Useful when programs need to be running from where they are located (usually indicates programs that have issues being run globally).
+ * `--shimgen-noop` - Do not actually call the target. Useful to see what would happen if you ran the command.
 
 ### Licence
 
