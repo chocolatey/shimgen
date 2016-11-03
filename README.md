@@ -42,7 +42,7 @@ Honestly RDS gives much away for free, and many things are also FOSS, but at the
 It's possible. Eventually the source code may be opened up as a library and/or rolled into Chocolatey itself. It really depends on how well other things regarding RDS and the Chocolatey ecosystem pan out.
 
 ##### The Chocolatey client isn't really FOSS if Shimgen isn't FOSS.
-The argument can be made that nothing on Windows is truly FOSS because it has to run on a system that isn't also open. It also uses PowerShell, which is free but I've never seen the source code for.
+The argument can be made that nothing on Windows is truly FOSS because it has to run on a system that isn't also open.
 
 ##### I won't support Chocolatey if Shimgen isn't FOSS.
-We can't make you use Chocolatey. You also probably shouldn't use it because it takes advantage of PowerShell and Windows, which also isn't FOSS, among other tools it makes use of that are not open sourced (e.g. WebPi and DISM).
+We can't make you use Chocolatey. You also probably shouldn't use it because it takes advantage of Windows, which also isn't FOSS, among other tools it makes use of that are not open sourced (e.g. WebPi and DISM).
