@@ -1,7 +1,7 @@
 Shim Generator
 ==============
 
-A readme and issues list for Shim Generator (shimgen). 
+A readme and issues list for Shim Generator (shimgen).
 
 ## What is Shim Generator (shimgen)?
 
@@ -11,7 +11,7 @@ Shimgen is a tool that makes batch redirection not suck so much by generating sh
 * The exe can be called from powershell, bash, cmd.exe, or other shells just like you would call the target.
 * Blocks and waits for command line apps to finish running, exits immediately when running a GUI app
 * Uses the icon of the target if the target exists on creation
-* Works better than symlinks. Symlinks on Windows fall down at file dependencies. So if your file depends on other files and DLLs, all of those need to also be linked. 
+* Works better than symlinks. Symlinks on Windows fall down at file dependencies. So if your file depends on other files and DLLs, all of those need to also be linked.
 
 ## Shim Arguments
 
@@ -38,8 +38,12 @@ If your project is FOSS, please contact us for a grant of a free license to do s
 
 Honestly RDS gives much away for free, and many things are also FOSS, but at the end of the day some things need to be commercially supported. If one day there is a hope to support folks working full time on the Chocolatey ecosystem, then not everything can be FOSS.
 
-##### Will Shimgen ever be open-sourced? 
+##### Will Shimgen ever be open-sourced?
 It's possible. Eventually the source code may be opened up as a library and/or rolled into Chocolatey itself. It really depends on how well other things regarding RDS and the Chocolatey ecosystem pan out.
+
+##### Can I view the source of a created shim?
+
+Yes, absolutely! See [Shim Source Readme](shim/README.md).
 
 ##### The Chocolatey client isn't really FOSS if Shimgen isn't FOSS.
 The argument can be made that nothing on Windows is truly FOSS because it has to run on a system that isn't also open.
