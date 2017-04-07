@@ -43,7 +43,7 @@ It's possible. Eventually the source code may be opened up as a library and/or r
 
 ##### Can I view the source of a created shim?
 
-Yes, absolutely! See [Shim Source Readme](shim/README.md).
+Yes, absolutely! See [Shim Source Readme](shim/).
 
 ##### The Chocolatey client isn't really FOSS if Shimgen isn't FOSS.
 The argument can be made that nothing on Windows is truly FOSS because it has to run on a system that isn't also open.
