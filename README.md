@@ -26,27 +26,20 @@ You pass these arguments to an executable that is a shim (e.g. executables in th
  * `--shimgen-noop` - Do not actually call the target. Useful to see what would happen if you ran the command.
 
 ### Licence
-
-Shimgen is a commercial tool provided by RealDimensions Software, LLC (RDS) for free use with the Chocolatey client. It has a commercial license for other applications, but may also grant a free license for FOSS projects. See the FAQs.
+Shimgen is a commercial tool provided by Chocolatey Software for free use with the Chocolatey client. It has a commercial license for other applications, but may also grant a free license for FOSS projects. See the FAQs.
 
 ### FAQs
-
 ##### I want to use Shimgen outside of Chocolatey.
-If your project is FOSS, please contact us for a grant of a free license to do so. If your project is commercial, please contact RDS for a quote.
+If your project is FOSS, please contact us for a grant of a free license to do so. If your project is commercial, please contact Chocolatey Software for a quote.
 
-##### Why is ShimGen Closed Source?
-
-Honestly RDS gives much away for free, and many things are also FOSS, but at the end of the day some things need to be commercially supported. If one day there is a hope to support folks working full time on the Chocolatey ecosystem, then not everything can be FOSS.
-
-##### Will Shimgen ever be open-sourced?
-It's possible. Eventually the source code may be opened up as a library and/or rolled into Chocolatey itself. It really depends on how well other things regarding RDS and the Chocolatey ecosystem pan out.
+##### Why is ShimGen closed source?
+It's a long story...one that is best talked about over coffee or drinks. It is something that might eventually be open sourced. We have open sourced [the shims themselves](shim/) so you can see what the exe shims are made of.
 
 ##### Can I view the source of a created shim?
-
 Yes, absolutely! See [Shim Source Readme](shim/).
 
 ##### The Chocolatey client isn't really FOSS if Shimgen isn't FOSS.
-The argument can be made that nothing on Windows is truly FOSS because it has to run on a system that isn't also open.
+The argument can be made (and has been made) that nothing on Windows is truly FOSS because it has to run on a system that isn't also open. Chocolatey uses tools as part of what it does, Shimgen is one of those tools.
 
 ##### I won't support Chocolatey if Shimgen isn't FOSS.
-We can't make you use Chocolatey. You also probably shouldn't use it because it takes advantage of Windows, which also isn't FOSS, among other tools it makes use of that are not open sourced (e.g. WebPi and DISM).
+That's fine - that decision rests with you and we can respect that.
