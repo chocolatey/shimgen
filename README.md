@@ -29,6 +29,9 @@ You pass these arguments to an executable that is a shim (e.g. executables in th
 Shimgen is a commercial tool provided by Chocolatey Software for free use with the Chocolatey client. It has a commercial license for other applications, but may also grant a free license for FOSS projects. See the FAQs.
 
 ### FAQs
+#### I have found a bug with shimgen, or I want to raise a feature request for shimgen, where should I raise an issue?
+Issues, including feature requests, for shimgen are being tracked in this [repository](https://github.com/chocolatey/home).  Create an issue there, and we can begin the triaging process.
+
 ##### Is shimgen free for use?
 Only in the context of using it with Chocolatey. It has a specific license granted to distribution with Chocolatey that is should be used only in the context of Chocolatey and not separately. 
 
